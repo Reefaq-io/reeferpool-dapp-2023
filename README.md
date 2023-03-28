@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/Ovx8W2u.png" width="320" alt="Reef" align="right">
+<img src="https://i.imgur.com/Ovx8W2u.png" width="220" alt="Reef" align="right">
 
 # Reeferpool
 
