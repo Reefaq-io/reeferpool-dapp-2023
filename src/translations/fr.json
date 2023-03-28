@@ -1,0 +1,43 @@
+{
+  "globalMessages": {
+    "unknownApiError": "Une erreur inconnue s'est produite."
+  },
+  "e-logo": {
+    "linkTitle": "à la page d'accueil"
+  },
+  "e-select": {
+    "chooseOption": "SVP Sélectionner"
+  },
+  "e-table": {
+    "sort": "Trier par {name}",
+    "noResults": "Aucun résultat pour la sélection actuelle."
+  },
+  "e-progress": {
+    "loading": "Charge …"
+  },
+  "e-multiselect": {
+    "defaultPlaceholder": "SVP Sélectionner",
+    "searchFieldPlaceholder": "Rechercher"
+  },
+  "c-breadcrumb": {
+    "linkTitle": "Allez vers {name}"
+  },
+  "c-notification": {
+    "confirm": "OK",
+    "decline": "Annuler",
+    "close": "Fermer"
+  },
+  "c-modal": {
+    "closeTitle": "fermer la fenêtre"
+  },
+  "c-multiselect": {
+    "search": "Rechercher",
+    "save": "Enregistrer",
+    "itemsEmpty": "Aucun résultat",
+    "searchTitle": "Recherche"
+  },
+  "s-language":{
+    "de": "Allemand",
+    "fr": "Français"
+  }
+}

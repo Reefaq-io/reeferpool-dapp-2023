@@ -1,0 +1,10 @@
+{
+  "de": {
+    "currency": {
+      "style": "decimal",
+      "currency": "CHF",
+      "decimal": "'",
+      "minimumFractionDigits": 2
+    }
+  }
+}
