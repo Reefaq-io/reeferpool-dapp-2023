@@ -11,6 +11,7 @@ import table from '@/styleguide/routes/r-table.vue';
 import tooltips from '@/styleguide/routes/r-tooltips.vue';
 import googleMaps from '@/styleguide/routes/r-google-maps.vue';
 import picture from '@/styleguide/routes/r-picture.vue';
+import priceprediction from '@/styleguide/routes/r-price-prediction.vue';
 
 declare module 'vue-router' {
   interface RouteMeta {
@@ -46,6 +47,14 @@ export default [
     component: index,
     meta: {
       title: 'Welcome',
+    },
+  },
+  {
+    path: root,
+    name: 'app',
+    component: priceprediction,
+    meta: {
+      title: 'Price Prediction',
     },
   },
   {
