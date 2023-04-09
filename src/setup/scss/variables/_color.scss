@@ -13,6 +13,12 @@ $color-grayscale--1000: #ffffff;
 $color-gradient--1-0: $color-grayscale--0;
 $color-gradient--1-1: $color-grayscale--1000;
 
+// REEF color variables
+$color-reef-grayscale--strongest: #26272c;
+$color-reef-grayscale--strong: #2c2d33;
+$color-reef-grayscale--bg: #ddd8eb;
+$color-reef-grayscale--light: #efebf7;
+
 // CSS Variables
 $color-primary--1: var(--theme-color-primary-1);
 $color-primary--1--rgb: var(--theme-color-primary-1--rgb);
@@ -32,10 +38,8 @@ $color-secondary--4--rgb: var(--theme-color-secondary-4--rgb);
 $color-secondary--5: var(--theme-color-secondary-5);
 $color-secondary--5--rgb: var(--theme-color-secondary-5--rgb);
 
-$color-gradient--2-0: var(--theme-color-gradient-2-0);
-$color-gradient--2-0--rgb: var(--theme-color-gradient-2-0--rgb);
-$color-gradient--2-1: var(--theme-color-gradient-2-1);
-$color-gradient--2-1--rgb: var(--theme-color-gradient-2-1--rgb);
+$color-gradient--2-0: $color-primary--1;
+$color-gradient--2-1: $color-primary--2;
 
 $color-status--success: var(--theme-color-status-success);
 $color-status--success--rgb: var(--theme-color-status-success--rgb);

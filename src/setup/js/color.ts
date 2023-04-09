@@ -34,7 +34,7 @@ const colors: IColors = {
   ],
   gradient: [
     { name: '$color-gradient--1-0 - $color-gradient--1-1', value: ['#000000', '#ffffff'] },
-    { name: '$color-gradient--2-0 - $color-gradient--2-1', value: ['#2c68a0', '#75b4e0'] },
+    { name: '$color-gradient--2-0 - $color-gradient--2-1', value: ['#A93185', '#5d3bad'] },
   ],
   status: [
     { name: '$color-status--success', value: ['#2fa61c'] },

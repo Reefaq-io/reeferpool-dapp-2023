@@ -319,20 +319,22 @@
   @use '../setup/scss/variables';
 
   .e-button {
-    $border-radius: 3px;
+    $border-radius: 10px;
 
     @include mixins.font(14, 18, variables.$font-weight--semi-bold);
 
     position: relative;
-    display: inline-block;
-    min-width: 165px;
-    padding: 6px variables.$spacing--10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: variables.$spacing--10 variables.$spacing--20;
     outline: none;
-    border: 1px solid variables.$color-grayscale--500;
+    border: none;
     border-radius: $border-radius;
-    background: transparent;
+    background: linear-gradient(to right, variables.$color-gradient--2-0, variables.$color-gradient--2-1);
+    box-shadow: 0 3px 15px rgba(variables.$color-primary--1--rgb, 0.4);
     cursor: pointer;
-    color: variables.$color-grayscale--400;
+    color: variables.$color-grayscale--1000;
     text-align: center;
 
     &:hover {
@@ -342,22 +344,18 @@
     &--focus,
     &:focus {
       outline: none;
-      border: 1px solid variables.$color-grayscale--500;
-      background-color: variables.$color-grayscale--500;
-      color: variables.$color-primary--3;
+      filter: brightness(1.1);
     }
 
     &:active:not([disabled]),
     &--active:not([disabled]) {
       position: relative;
       background-color: variables.$color-grayscale--400;
-      color: variables.$color-primary--3;
     }
 
     &--hover:not(&--touch),
     &:hover:not(&--touch) {
-      background-color: variables.$color-grayscale--500;
-      color: variables.$color-primary--3;
+      filter: brightness(1.1);
     }
 
     &--focus path,
@@ -408,7 +406,8 @@
 
     &__inner {
       position: relative;
-      display: inline-block;
+      display: flex;
+      justify-content: center;
       vertical-align: baseline;
     }
 

@@ -1,0 +1,18 @@
+@use '../variables';
+
+$container--padding: variables.$spacing--20;
+$container--max-width: 1420px; // Max width on desktop according designs
+
+@mixin container {
+  width: 100%;
+  max-width: $container--max-width + ($container--padding * 2);
+  margin: 0 auto;
+  padding-right: $container--padding;
+  padding-left: $container--padding;
+}
+
+@mixin layout {
+  @include container();
+
+  grid-area: main;
+}
